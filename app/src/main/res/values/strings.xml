@@ -1,0 +1,56 @@
+<resources>
+
+    <!--Strings used all over app-->
+    <string name="main_menu">Main Menu</string>
+
+    <!--Strings from the main menu screen-->
+    <string name="main_menu_screen">Main Menu Screen</string>
+    <string name="main_menu_description">This activity shows the Now Playing, Library, Playlists, Payment, and about us.</string>
+    <string name="app_name">Musical Structure</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="library">Library</string>
+    <string name="playlists">Playlists</string>
+    <string name="payment">Payment</string>
+    <string name="about_us">About Us</string>
+
+    <!--Strings from the now playing screen-->
+    <string name="now_playing_screen">Now Playing Screen</string>
+    <string name="now_playing_description">This activity shows the currently playing song, as well as buttons will go to previous song, next song, play/pause, buy song, and even show you album/song details</string>
+    <string name="buy_now">Buy Now</string>
+
+    <!--Strings from library screen-->
+    <string name="library_screen">Library Screen</string>
+    <string name="library_screen_description">This Library Activity shows all of the songs in alphabetical order.  It has the album image, song name, album name, artist name.  Whn you click on one, a toast will appear saying that the song clicked is now playing.</string>
+    <string name="under_the_bridge">Under the Bridge \nRed Hot Chili Peppers"</string>
+    <string name="give_it_away">Give It Away \nRed Hot Chili Peppers</string>
+    <string name="breaking_the_girl">Breaking The Girl \nRed Hot Chili Peppers</string>
+    <string name="californication">Californication \nRed Hot Chili Peppers</string>
+    <string name="scar_tissue">Scar Tissue \nRed Hot Chili Peppers</string>
+    <string name="soult_to_squeeze">Soul To Squeeze \nRed Hot Chili Peppers</string>
+    <string name="other_side">Other Side \nRed Hot Chili Peppers</string>
+    <string name="suck_my_kiss">Suck My Kiss [Clean] \nRed Hot Chili Peppers</string>
+    <string name="by_the_way">By The Way \nRed Hot Chili Peppers</string>
+    <string name="parallel_universe">Parallel Universe \nRed Hot Chili Peppers</string>
+
+    <!--Strings from playlist screen-->
+    <string name="playlist_screen">Playlist Screen</string>
+    <string name="playlist_screen_activity">This Playlist Activity shows the different playlist the user has created with their music.  When you click on a image it creates a toast saying it wil take you to that specific playlist</string>
+    <string name="love_playlist">Love Playlist</string>
+    <string name="workout_playlist">Workout Playlist</string>
+    <string name="road_trip_playlist">Road Trip Playlist</string>
+    <string name="chill_playlist">Chill Playlist</string>
+
+    <!--Strings from payment screen-->
+    <string name="payment_screen">Payment Screen</string>
+    <string name="payment_screen_description">This Payment Activity shows the details about Android Pay API.  A \'Buy Now\' button in the Now Playing Activity sends it here to pay</string>
+    <string name="android_api">Android API</string>
+    <string name="android_learn_api">You can learn about adding the Android API by clicking on the link below.  To summarize you can make changes to your dependencies and manifest files to accomidate the Android API feature</string>
+    <string name="api_url">https://developers.google.com/android-pay/setup</string>
+
+    <!--Strings from about us screen-->
+    <string name="about_us_screen">About Us Screen</string>
+    <string name="about_us_description">This About Us Playlist shows a description of the creation of the app</string>
+    <string name="about_us_text">This Musical Structure App was created through Android Studios for the Android Basics Nanodegree program at Udacity.  Thank you for reviewing!</string>
+
+
+</resources>

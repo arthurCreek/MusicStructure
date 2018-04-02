@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu_screen"
+        android:padding="8dp"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#B71C1C"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu_description"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/now_playing"
+        android:text="@string/now_playing"
+        style="@style/MenuTheme"
+        android:background="#B71C1C"/>
+    <TextView
+        android:id="@+id/library"
+        android:text="@string/library"
+        style="@style/MenuTheme"
+        android:background="#C62828"/>
+    <TextView
+        android:id="@+id/playlists"
+        android:text="@string/playlists"
+        style="@style/MenuTheme"
+        android:background="#D32F2F"/>
+    <TextView
+        android:id="@+id/payment"
+        android:text="@string/payment"
+        style="@style/MenuTheme"
+        android:background="#E53935"/>
+    <TextView
+        android:id="@+id/about_us"
+        android:text="@string/about_us"
+        style="@style/MenuTheme"
+        android:background="#F44336"/>
+
+</LinearLayout>
